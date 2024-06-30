@@ -116,7 +116,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -149,7 +149,7 @@
               -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -280,7 +280,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       
-      <h3 class="title is-4"> INTERPOLATION </h3>
+      <h3 class="title is-4 has-text-centered"> INTERPOLATION </h3>
         <div class="content has-text-justified">
           <p>
             <span class="dnerf">Instrution:</span> Transform this face from disgust to sadness
@@ -368,10 +368,10 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">RESULTS</h2>
+        <h2 class="title is-3 has-text-centered">RESULTS</h2>
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Facial Expression Transition</h3>
+        <h3 class="title is-4 has-text-centered">Facial Expression Transition</h3>
         <br/>
 
         <h2 class="subtitle has-text-centered">
@@ -442,11 +442,11 @@
           <p>
             <span class="dnerf">Instrution:</span> Replace this face from surprise to happiness
           </p>
+          <p class="dnerf" style="text-align:left" >Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left" >Input Frame</p>
             <img src="./static/images/mt_sample2/shape_0.jpg"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -480,11 +480,11 @@
           <p>
             <span class="dnerf">Instrution:</span> Change this face from anger to sadness
           </p>
+          <p class="dnerf" style="text-align:left" >Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left" >Input Frame</p>
             <img src="./static/images/mt_sample3/shape_0.jpg"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -516,7 +516,7 @@
         <br/>
         <!--/ Interpolating. -->
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Face Rendering</h3>
+        <h3 class="title is-4 has-text-centered" >Face Rendering</h3>
         <div class="content has-text-justified">
 
           <!-- sample 1 -->   
@@ -587,33 +587,33 @@
           <p>
             <span class="dnerf">Instrution:</span> Replace this face from surprise to happiness 
           </p>
+          <p class="dnerf" style="text-align:left" >Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left" >Input Frame</p>
+          <div class="column is-2 has-text-centered" style="text-align:right" height="250">
             <img src="./static/images/mt_sample2/s24.png"
                  alt="Interpolate start reference image." width="200"/>
           </div>
 
           <div class="column is-2 has-text-centered">
             <p class="is-bold" style="text-align:center"> </p>
-            <img src="./static/videos/our_sample2/rome_rgb_Replace this face from surprise to happiness.gif" alt="1"  width="200"  alt="1" />
+            <img src="./static/videos/our_sample2/rome_rgb_Replace this face from surprise to happiness.gif" alt="1"  width="200"/>
           </div>
 
           <div class="column is-2 has-text-centered">
             <p class="is-bold" style="text-align:center"> </p>
-            <img src="./static/videos/our_sample2/cvt_Replace_this_face_from_surprise_to_happiness.gif" alt="1"  width="200"  alt="1" />
+            <img src="./static/videos/our_sample2/cvt_Replace_this_face_from_surprise_to_happiness.gif" alt="1"  width="200" />
           </div>
 
           <div class="column is-2 has-text-centered">
             <p class="is-bold" style="text-align:center"> </p>
-            <img src="./static/videos/celebv_our_sample2/rome_rgb_Replace this face from surprise to happiness.gif" alt="1"  width="200"  alt="1" />
+            <img src="./static/videos/celebv_our_sample2/rome_rgb_Replace this face from surprise to happiness.gif" alt="1"  width="200" />
           </div>
 
           <div class="column is-2 has-text-centered">
             <p class="is-bold" style="text-align:center"> </p>
-            <img src="./static/videos/celebv_our_sample2/cvt_Replace_this_face_from_surprise_to_happiness.gif" alt="1"  width="200"  alt="1" />
+            <img src="./static/videos/celebv_our_sample2/cvt_Replace_this_face_from_surprise_to_happiness.gif" alt="1"  width="200" />
           </div>
 
         </div>
@@ -625,11 +625,11 @@
           <p>
             <span class="dnerf">Instrution:</span> Change this face from anger to sadness 
           </p>
+          <p class="dnerf" style="text-align:left" >Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left" >Input Frame</p>
             <img src="./static/images/mt_sample3/s23.png"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -758,20 +758,40 @@
 
         <!-- Neutral and without Neutral -->
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">Our method</span> is able to generate facial expression sequences with many diverse expressions.
+          <span class="dnerf"> with a diverse range of expressions and poses</span>
        </h2>
         <div class="content has-text-justified">
         
-        <!-- sample 1 -->   
+        <!---->
         <div class="content has-text-justified">
           <p>
             <span class="dnerf">Instrution:</span> Modify this face changing it from fear to disgust
           </p>
         </div>
 
+        <!-- title -->   
+
+        <div class="columns is-vcentered ">
+          <div class="column is-4" style="text-align:left">
+            <p>
+              <span class="dnerf">Input Frame:</span> 
+            </p>
+          </div>
+
+          <div class="column is-3 has-text-centered">
+            <p class="is-bold" style="text-align:justified"> w/o Neutral Expression</p>
+           
+          </div>
+
+          <div class="column is-3 has-text-centered">
+            <p class="is-bold" style="text-align:justified"> w/ Neutral Expression</p>
+          </div>
+
+        </div>
+        <br/>
+        <!---->
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left">Input Frame</p>
             <img src="./static/images/cvthead_sample2/s1785.png"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -779,12 +799,12 @@
           </div>
 
           <div class="column is-2 has-text-centered">
-            <p class="is-bold" style="text-align:right"> w/o Neutral Expression</p>
+            
             <img src="./static/videos/cvthead_sample2/won_Modify_this_face,_changing_it_from_fear_to_disgust.gif" alt="1"  width="200"  alt="1" />
           </div>
 
           <div class="column is-2 has-text-centered">
-            <p class="is-bold" style="text-align:right"> w/ Neutral Expression</p>
+           
             <img src="./static/videos/cvthead_sample2/Modify_this_face,_changing_it_from_fear_to_disgust.gif" alt="1"  width="200"  alt="1" />
           </div>
 
@@ -796,11 +816,11 @@
           <p>
             <span class="dnerf">Instrution:</span> Transform this face from anger to surprise
           </p>
+          <p class="dnerf" style="text-align:left">Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left">Input Frame</p>
             <img src="./static/images/cvthead_sample1/s0811.png"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -825,11 +845,11 @@
           <p>
             <span class="dnerf">Instrution:</span> Change this face from fear to contempt
           </p>
+          <p class="dnerf" style="text-align:left">Input Frame</p>
         </div>
 
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-2 has-text-centered" style="text-align:right">
-            <p class="dnerf" style="text-align:left">Input Frame</p>
             <img src="./static/images/cvthead_sample3/s1384.png"
                  alt="Interpolate start reference image." width="200"/>
           </div>
@@ -854,7 +874,7 @@
 
     <!--/ SENTENCES. -->
     <h2 class="subtitle has-text-centered">
-      <span class="dnerf">Our method</span> is able to generate facial expression sequences with various instructions.
+      <span class="dnerf">with various instructions</span> 
    </h2>
    
   
@@ -889,11 +909,11 @@
       <p>
         <span class="dnerf">Instrution:</span> This photo captures his expression shifting between contempt and anger
       </p>
+      <p class="dnerf" style="text-align:left">Input Frame</p>
     </div>
 
     <div class="columns is-vcentered interpolation-panel">
       <div class="column is-2 has-text-centered" style="text-align:right">
-        <p class="dnerf" style="text-align:left">Input Frame</p>
         <img src="./static/images/cvthead_sample5/s0467.png"
              alt="Interpolate start reference image." width="200"/>
       </div>
@@ -913,13 +933,13 @@
     <div class="content has-text-justified">
       <p>
         <span class="dnerf">Instrution:</span> This face initially shows sadness and then surprise 
-       
       </p>
+      <p class="dnerf" style="text-align:left">Input Frame</p>
     </div>
 
     <div class="columns is-vcentered interpolation-panel">
       <div class="column is-2 has-text-centered" style="text-align:right">
-        <p class="dnerf" style="text-align:left">Input Frame</p>
+        
         <img src="./static/images/cvthead_sample6/s1887.png"
              alt="Interpolate start reference image." width="200"/>
       </div>
@@ -941,11 +961,12 @@
       <p>
         <span class="dnerf">Instrution:</span> He seems happy, but suddenly becomes angry
       </p>
+      <p class="dnerf" style="text-align:left">Input Frame</p>
     </div>
 
     <div class="columns is-vcentered interpolation-panel">
       <div class="column is-2 has-text-centered" style="text-align:right">
-        <p class="dnerf" style="text-align:left">Input Frame</p>
+        
         <img src="./static/images/cvthead_sample7/s25.png"
              alt="Interpolate start reference image." width="200"/>
       </div>
@@ -1004,7 +1025,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="#">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="#" class="external-link" disabled>
