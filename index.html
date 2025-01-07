@@ -258,19 +258,31 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            Generating facial expressions on 3D faces has been popular since it has diverse applications. 
-            This study presents a new text-guided facial expression generation framework that produces a 3D face and makes facial transitions between two arbitrary facial expressions accompanied by pose variation, starting from a 2D face image. 
-          </p>
-          <p>
-            Initially, we introduce the Text-guided Facial Expression Decomposer (<span class="dnerf">TFED</span>) module to facilitate multimodal data learning and capture the correlation between textual descriptions and facial expression features. 
-            Subsequently, we propose the Text to Facial Expression Transition (T2FET) method, which leverages TFED and vertex reconstruction loss function to refine the semantic comprehension of latent vectors, thus generating a facial expression sequence guided by provided instruction. 
-            Lastly, we present a Facial Expression Transition model to generate smooth transitions between facial expressions.
-          </p>
-          <p>
-            Extensive evaluation suggests that the proposed model outperforms state-of-the-art methods on CK+ and CelebV-HQ datasets. The results show that our framework can generate facial expression trajectories according to text insinstruction. 
-            We expect that it can find various practical applications.
-          </p>
+         A 3D avatar typically has one of six cardinal facial
+        expressions. To simulate realistic emotional variation, we should
+        be able to render a facial transition between two arbitrary
+        expressions. This study presents a new framework for instruction-
+        driven facial expression generation that produces a 3D face
+        and, starting from an image of the face, transforms the facial
+        expression from one designated facial expression to another.
+        The Instruction-driven Facial Expression Decomposer (IFED)
+        module is introduced to facilitate multimodal data learning and
+        capture the correlation between textual descriptions and facial
+        expression features. Subsequently, we propose the Instruction to
+        Facial Expression Transition (I2FET) method, which leverages
+        IFED and a vertex reconstruction loss function to refine the
+        semantic comprehension of latent vectors, thus generating a
+        facial expression sequence according to the given instruction.
+        Lastly, we present the Facial Expression Transition model to
+        generate smooth transitions between facial expressions. Extensive
+        evaluation suggests that the proposed model outperforms state-of-
+        the-art methods on the CK+ and CelebV-HQ datasets. The results
+        show that our framework can generate facial expression trajecto-
+        ries according to text instruction. Considering that text prompts
+        allow us to make diverse descriptions of human emotional states,
+        the repertoire of facial expressions and the transitions between
+        them can be expanded greatly. We expect our framework to
+        find various practical applications.
         </div>
       </div>
     </div>
@@ -377,7 +389,7 @@
         <br/>
 
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">A comparison</span> of Our method and MotionClip for generating facial expression transition on two datasets.
+          <span class="dnerf">A comparison</span> of Our method and MotionClip for generating facial expression transition on two benchmark datasets.
        </h2>
 
         <!-- sample 1: MotionClip -->   
